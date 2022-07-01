@@ -89,3 +89,10 @@ div.fadeIn {
     opacity: 1;
     pointer-events: all;
 }
+
+@keyframes shakePlayer {
+    0%{
+        transform: rotate(180deg) translateY(0px); 
+    }
+    15%{}
+}
